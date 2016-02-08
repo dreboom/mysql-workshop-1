@@ -1,0 +1,9 @@
+use decodemtl_addressbook;
+
+create table AddressBook(`id` int auto_increment primary key);
+
+create table Account(`id` int auto_increment primary key);
+
+create table Entry(`id` int auto_increment primary key);
+
+create table Test(`id` int auto_increment primary key);
