@@ -1,0 +1,6 @@
+create database hotel;
+
+use hotel
+
+create table HotelAvail (`id` int auto_increment primary key, `Date` datetime, `Floor` int, `RoomNumber` int, `Rentable` boolean, `Available` boolean, `ThreePplOccupancy` boolean, `Kitchen` boolean, `Carpet` boolean, `NumOfWindows` int);  
+
