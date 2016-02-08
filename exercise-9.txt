@@ -1,0 +1,6 @@
+create database Barn;
+
+use Barn;
+
+create table BarnInventory(`id` int auto_increment primary key, `Date` datetime, `Roosters` int, `Hens` int, `Chicks` int, `ChicksComeToAge` int);
+
